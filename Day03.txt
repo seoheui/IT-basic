@@ -1,0 +1,48 @@
+Day03
+
+1. 연산자(계속)
+    (3) 논리 연산자
+        A and B : A가 True, B도 True이면 True 나머지는 False cf) &&
+        A or B : A 또는 B가 True이면 True, 둘 다 False이면 False cf) ||
+        not A : A가 True이면 False, False이면 True
+
+2.str.format()
+    String(문자열)의 기능으로 {}를 사용하여 변수 입력을 가능하게 함.
+    print("당신의 점수는 " + str(score) + str(score2) + str(score3).....)
+    1) print("당신의 점수는 {},{},{}".format(score2, score2, scpre3))
+    2) print(f'당신의 점수는 {score1},{score},{score3}')
+    * https://docs.python.org/ko/3/library/string.html#formatexamples
+
+3. python refernce 메뉴얼 사이트
+    (1) wwww.python.org
+    (2) docs클릭
+    (3) (필요시) 좌측 상단 korean으로 변경
+    (4) 우측 상단 format 검색
+    (5) str.format 클릭
+    (6) syntax(문법), example(예제)
+
+4. 제어문(Control Statement)
+    - 프로그램에서 실행 순서를 변경하거나
+      조건에 따라서 실행하거나 안하거나
+      특정 부분은 반복하거나 할 경우 사용
+    - 일반적으로 프로그램은 위에서부터 아래로 수행
+    - 제어문의 종류
+      조건문, 반복문, 기타 제어문
+      조건문 : if, 삼항조건문(삼항연산자)
+      반복문 : while, for, cf) do while in C, Java
+      기타 제어문 : break, continue
+
+    (1) 조건문(Conditional Statement)
+        - 조건에 따라 다른 것을 구현하는 문장
+        - if, if-else, if-elif, if-elif-else
+
+          형식)
+          if 조건식:
+            조건식이 True일 때 실행할 문장
+          elif 조건식2:
+            조건식은 False, 조건식2는 True일 때 실행할 문장
+          elif ...
+          elif ...
+          e;if ...
+          else:
+            모두 아닐 때 실행할 문장
