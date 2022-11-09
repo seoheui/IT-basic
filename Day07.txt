@@ -1,0 +1,47 @@
+Day07
+
+1. Method(메서드)
+    str.format(), random.randint()
+    겉보기에는 함수 같은데 메서드란 무엇인가요?
+    => 함수 맞음. 단, 클래스 내에 있는 함수
+    클래스 : 멤버 변수, 멤버 함수
+
+2. List Method
+    list_a = [1,2,3]
+    list_a[2] => 3
+    list_a[3] = 4  =====> (X)
+    list_a.append(4) =====> list_a : [1,2,3,4]
+
+    append(값) : 리스트의 맨 뒤에 값을 추가한다.
+    insert(인덱스,값) : 리스트의 인덱스 위치에 값을 추가한다.
+    extend() : 리스트에 다른 집합 객체를 통째로 넣는다.
+
+    pop() : 리스트에서 데이터를 꺼내는 것
+    remove(값) : 리스트에서 값과 동일한 첫번째 멤버를 삭제
+    index(값, 시작인덱스, 종료인덱스) : 리스트에서 시작, 종료 사이에 값과 동일한 멤버의 위치를 알려줌
+
+    clear() : 리스트를 다 날림
+
+3. Set Method
+    집합이라는 특성에 맞게 개성있는 메서드가 존재
+
+    intersection(비교대상) - 교집합
+    - 나와 비교대상이 공통으로 가지고 있는 멤버
+    a.intersection(b)
+
+    union(비교대상) - 합집합
+    - 나와 비교대상을 합친 전체 멤버를 구한다. 중복은 1개만
+
+    difference(비교대상) - 차집합
+    - 나의 멤버 중 비교대상에 있는 멤버 제외
+    a.difference(b)
+
+4. Dictionary method
+    Dictionary - {Key:Value}
+    keys():key 목록
+    values():value 목록
+    items(): key, value 목록
+    get(키값):키값에 해당하는 value 반환
+    cf) d[키값
+
+
