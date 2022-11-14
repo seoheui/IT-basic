@@ -1,0 +1,22 @@
+Day09
+
+1. 전역변수(Global Variable)와 지역변수(Local Variable)
+    (1) Argument(인수), Value(값), Parameter(전달값)
+        Beatles = 50
+        Test(Beatles)   Test(50)    def Test(BTS):
+                                        print(BTS)
+        Beatles = 100
+        Test(Beatles)   Test(100)   def Test(Beatles)
+                                        print(Beatles)
+                                        Beatles = 200
+        print(Beatles) => ???
+                          100
+
+    (2) 전역변수와 지역변수의 차이점
+        프로그램에서 변수를 사용할 수 있는 영역이 존재
+
+        전역변수 : global이라고 하며 어디에서든 사용 가능
+        지역변수 : local이라고 하며 함수 내에서만 사용 가능
+
+        *함수 내에서 할당(assignment)한 변수는 함수가 끝나면 소멸
+        *함수 내에서 전역변수와 동일한 이름을 사용해도 할당하면 지역변수가 됨
